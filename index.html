@@ -1,11 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="stylesheet" href="../css/01.homepage.css"> -->
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <script src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=543WIVuGghavR5RyG4LMjKjjrCButxhb"></script>
+
+    <style>
+
+    </style>
+
 </head>
+</head>
+
 <body>
-    zheshi wangzhan
+    <!-- 头部 -->
+    <header>
+        <div class="headerContainer">
+            <div>
+                <span>PORTFOLIO</span>
+                <!-- <img src="../imgs/logo.png" alt=""> -->
+            </div>
+            <ul>
+                <li class="border"><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="project.html">PROJECT</a></li>
+                <li><a href="advisor.html">ADVISOR</a></li>
+                <li><a href="index.html#contatc">CONTACT</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <!-- 版心 -->
+    <div class="banner">
+        <img src="../imgs/lb-2.png" alt="">
+        <img src="../imgs/lb-1.png" alt="">
+        <!-- <img src="../imgs/lb-3.png" alt=""> -->
+        <p>
+            <span>&lt;</span>
+            <span>&gt;</span>
+        </p>
+    </div>
+
+    <!-- 自我介绍 -->
+    <div class="selfIntroduce">
+        <div class="selfIntroduceContainer">
+            <div class="title">
+                <h3>SLEF INTRODUCE</h3>
+                <h5>
+                    <span>ABOUT ME</span>
+                </h5>
+                <span class="iconfont icon-self_account"></span>
+            </div>
+            <dl>
+                <dt>
+                    <img src="../imgs/self.jpg" alt="">
+                </dt>
+                <dd>
+                    <h4>SELF INTRODUCE</h4>
+                    <article>
+                        <p>“Things have changed,” the official said of this moment in time versus earlier on in the
+                            Biden administration. Since the Sherman meeting - which followed a tense encounter in Alaska
+                            that Blinken and Sullivan had with their Chinese counterparts, there have been “tens of
+                            dozens of hours” of calls between the US and China that have included Xie Feng, specifically
+                            in preparation for the Biden-Xi meeting in Bali and the planned Blinken visit to Beijing
+                            earlier this year.The State Department welcomed Xie Feng’s arrival. “We look forward to
+                            working with the ambassador designate and his team,” said State Department spokesperson
+                            Matthew Miller at a press briefing.
+                        </p>
+                        <p>learn more about me
+                        </p>
+                    </article>
+
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <!-- <aside>
+        <img src="../imgs/aside.png" alt="">
+        <p>
+            CHUNYAN&nbsp&nbspXIANG &nbsp&nbsp ARCHITECTS
+        </p>
+    </aside> -->
+
+    <!-- 主要内容部分 -->
+    <div class="content">
+        <div class="contentContainer">
+            <!-- 第一部分内容 -->
+            <div class="project">
+                <div class="title">
+                    <h3>PROJECT INTRODUCE</h3>
+                    <h5>
+                        <span>project</span>
+                    </h5>
+                    <span class="iconfont icon-project"></span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="a-project.html">
+                            <img src="../imgs/project-1.png" alt="">
+                        </a>
+                            
+
+                        <h6>STUDENT APARTMENT</h6>
+                        <p>The project is located at a cross road outside the campus of Yunlin University of science and
+                            technology in Taiwan.The mission statement requires the design of a new student apartment to
+                            replace the existing dilapidated student apartment.</p>
+                    </li>
+                    <li>
+                        <a href="a-project.html"><img src="../imgs/project-2.png" alt=""></a>
+                        <h6>NEW BOOKSTORE</h6>
+                        <p>The project is located at a cross road outside the campus of Yunlin University of science and
+                            technology in Taiwan.The mission statement requires the design of a new student apartment to
+                            replace the existing dilapidated student apartment.</p>
+                    </li>
+                    <li>
+                        <a href="a-project.html"><img src="../imgs/project-3.png" alt=""></a>
+                        <h6>BATHING AREA</h6>
+                        <p>The project is located at a cross road outside the campus of Yunlin University of science and
+                            technology in Taiwan.The mission statement requires the design of a new student apartment to
+                            replace the existing dilapidated student apartment.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 第二部分内容 -->
+            <div class="teacher">
+                <div class="title">
+                    <h3>PROJECT ADVISOR</h3>
+                    <h5>
+                        <span>Instructor</span>
+                    </h5>
+                    <span class="iconfont icon-project"></span>
+                </div>
+                <ul>
+                    <li>
+                        <a href="../html/b-.advisor.html">
+                            <img src="../imgs/teacher-1.png" alt="">
+                            <h6>黄永辉</h6>
+                            <p>Huang Yonghui</p>
+                        </a>
+
+
+                    </li>
+                    <li>
+                        <img src="../imgs/teacher-2.png" alt="">
+                        <h6>丁羽飞</h6>
+                        <p>Ding Yufei</p>
+
+                    </li>
+                    <li>
+                        <img src="../imgs/teacher-4.png" alt="">
+                        <h6>黄永辉</h6>
+                        <p>Huang Yonghui</p>
+                    </li>
+                    <li>
+                        <img src="../imgs/teacher-3.png" alt="">
+                        <h6>林佳正</h6>
+                        <p>Ling Jiazheng</p>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 第三部分内容 -->
+            <div class="contact" id="contact">
+                <div class="title">
+                    <h3>CONTACT ME</h3>
+                    <h5>
+                        <span>CONTACT</span>
+                    </h5>
+                    <span class="iconfont icon-lianxiren"></span>
+                </div>
+                <div class="map">
+                    <div class="left" id="container"></div>
+                    <ul>
+                        <li>
+                            <span class="iconfont icon-phone"></span>
+                            <p>
+                                <span>Information Hotline</span>
+                                <span>023-867-7848</span>
+                                <span>(09:30~18:30北京时间)</span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="iconfont icon-site"></span>
+                            <p>
+                                <span>Company address</span>
+                                <span>No. 277 Hongshi Road, Jiangbei District, Chongqing</span>
+                                <span>(09:30~18:30北京时间)</span>
+                            </p>
+                        </li>
+                        <li>
+                            <span class="iconfont icon-Email"></span>
+                            <p>
+                                <span>E-mail</span>
+                                <span>605741408@qq.com</span>
+                                <span>(09:30~18:30北京时间)</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 脚部 -->
+    <footer>
+        <div class="bg"></div>
+        <div class="footerContainer">
+            <p>
+                <span>C0PYRIGHT</span>
+                <span>©重庆DUZU有限公司</span>
+                <span>|</span>
+                <span>DUZU备案号</span>
+                <span>33010602001878号</span>
+                <span>版权所有：重庆戈登有限公司</span>
+            </p>
+            <div>
+                <span>PORTFOLIO</span>
+            </div>
+        </div>
+        <!-- <img src="../imgs/aside.png" alt=""> -->
+    </footer>
+
+    <!-- js部分 -->
+    <script>
+        var map = new BMapGL.Map('container'); // 创建Map实例
+        map.centerAndZoom('重庆市', 12); // 初始化地图,设置中心点坐标和地图级别
+        map.enableScrollWheelZoom(true); // 开启鼠标滚轮缩放
+
+
+        // 导航交互
+        let lis1 = document.querySelectorAll("header ul>li")
+
+        lis1.forEach((li) => {
+            li.onmouseover = function () {
+                lis1.forEach((li) => {
+                    li.className = ""
+                })
+                li.className = "border"
+            }
+        })
+
+
+        // 轮播交互
+        let banner = document.querySelector(".banner")
+        let spans = document.querySelectorAll(".banner p span")
+        let imgs3 = document.querySelectorAll(".banner>img")
+        var j = 0;
+        for (var i = 0; i < spans.length; i++) {
+            spans[i].onclick = function () {
+                if (this.innerText == "&lt;") {
+                    animation(-1)
+                } else {
+                    animation(1)
+                }
+            }
+        }
+        function animation(number) {
+            if (number == -1) {
+                j--;
+                j < 0 && (j = imgs3.length - 1);
+            }
+            else if (number == 1) {
+                j++;
+                j > imgs3.length - 1 && (j = 0);
+            }
+            for (var i = 0; i < imgs3.length; i++) {
+                imgs3[i].style.opacity = "0";
+            }
+            imgs3[j].style.opacity = "1";
+        }
+        autoplay = setInterval(() => { animation(1) }, 2000);
+        banner.onmouseover = function () {
+            clearInterval(autoplay);
+        }
+        banner.onmouseout = function () {
+            autoplay = setInterval(() => { animation(1) }, 2000);
+        }
+
+
+        // 项目交互
+        // let spans2 = document.querySelectorAll(".project ul>li span")
+        // let as = document.querySelectorAll(".project ul>li a")
+        // as.forEach((a, i) => {
+        //     a.onmouseover = function () {
+        //         a.style.opacity = 0.5
+        //         spans2[i].style.opacity = 1
+        //     }
+        //     a.onmouseout = () => {
+        //         a.style.opacity = 1
+        //         spans2[i].style.opacity = 0
+        //     }
+        // })
+
+
+
+        // 老师交互
+        let imgs2 = document.querySelectorAll(".teacher ul li img")
+        let li2 = document.querySelectorAll(".teacher ul li")
+        li2.forEach((li, i) => {
+            li.onmouseover = function () {
+                // li2[i].style.background = "#e5e9ec"
+            }
+            li.onmouseout = function () {
+                li2[i].style.background = ""
+            }
+        })
+
+
+
+    </script>
+
 </body>
+
 </html>
